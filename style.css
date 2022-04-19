@@ -1,4 +1,5 @@
-.image-breakfast {
+/* Move all images to center and resize them */
+.image {
     height: 500px;
     width: auto;
     display: block;
