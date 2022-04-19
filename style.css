@@ -8,7 +8,11 @@
     width: auto;
 }
 
-/* Move all text to the center */
+/* Move all text to the center and add margins */
 .text {
     text-align: center;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
 }
