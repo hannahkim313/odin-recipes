@@ -8,6 +8,12 @@
     width: auto;
 }
 
+/* Add margins to lists */
+ul,
+ol {
+    list-style-position: inside;
+}
+
 /* Move all text to the center and add margins */
 .text {
     text-align: center;
