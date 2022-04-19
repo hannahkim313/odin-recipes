@@ -20,7 +20,12 @@ li {
     text-align: left;
 }
 
-/* Move all text to the center and add margins */
+/* Align headings to the center */
+.heading {
+    text-align: center;
+}
+
+/* Align all text to the center and add margins */
 .text {
     text-align: center;
     display: block;
