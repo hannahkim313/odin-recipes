@@ -10,8 +10,14 @@
 
 /* Add margins to lists */
 ul,
-ol {
+ol,
+li {
     list-style-position: inside;
+}
+
+/* Align each list point to the left */
+li {
+    text-align: left;
 }
 
 /* Move all text to the center and add margins */
