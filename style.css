@@ -1,7 +1,7 @@
-/* Move all images to center and resize them */
 .image {
     height: 500px;
     width: auto;
+    /* Center image */
     display: block;
     margin-top: 25px;
     margin-left: auto;
@@ -9,16 +9,15 @@
     margin-bottom: 25px;
 }
 
-/* Add background color to main content */
 h1,
 .main {
+    /* Add background color behind headers, lists, and paragraphs */
     background-color:antiquewhite;
     padding: 25px 25px;
     margin-left: 300px;
     margin-right: 300px;
 }
 
-/* Style h2 headings and add lines before and after */
 h2 {
     font-family: sans-serif, Arial, Helvetica;
     margin: 50px auto;
@@ -27,6 +26,7 @@ h2 {
 }
 
 h2:before {
+    /* Create line left of h2 elements */
     content: "";
     display: block;
     width: 130px;
@@ -38,6 +38,7 @@ h2:before {
 }
   
 h2:after {
+    /* Create line right of h2 elements */
     content: "";
     display: block;
     width: 130px;
@@ -48,12 +49,6 @@ h2:after {
     position: absolute;
 }
 
-/* Align each list point to the left */
-li {
-    text-align: left;
-}
-
-/* Define font types and style */
 .heading,
 .text {
     font-family: sans-serif, Arial, Helvetica;
@@ -61,12 +56,14 @@ li {
     line-height: 24px;
 }
 
-/* Change font size and add margins */
-.text {
+.main .text {
     font-size: 17px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    margin: 25px 25px;
+}
+
+.main .list {
+    text-align: left;
+    margin-right: 53px;
+    /* Move bullet points/numbers of lists to the inside */
     list-style-position: inside;
 }
