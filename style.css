@@ -1,10 +1,12 @@
 body {
     background-color: hsl(32, 37%, 68%);
+    color: hsl(32, 70%, 21%);
 }
 
 .image {
     background-color: hsl(0, 0%, 100%);
     padding: 20px;
+    border-radius: 5px;
     height: 500px;
     width: auto;
     /* Center image */
@@ -19,6 +21,7 @@ h1,
 .main {
     /* Add background color behind headers, lists, and paragraphs */
     background-color:hsl(33, 78%, 91%);
+    border-radius: 5px;
     padding: 25px 25px;
     margin-left: 300px;
     margin-right: 300px;
