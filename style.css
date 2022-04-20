@@ -10,16 +10,9 @@
 }
 
 /* Add background color to main content */
+.h1,
 .main {
     background-color:antiquewhite;
-    padding: 25px 25px;
-    margin-left: 300px;
-    margin-right: 300px;
-}
-
-/* Style h1 headings */
-h1 {
-    background-color: antiquewhite;
     padding: 25px 25px;
     margin-left: 300px;
     margin-right: 300px;
