@@ -56,13 +56,6 @@ h2:after {
     position: absolute;
 }
 
-/* Add margins to lists */
-ul,
-ol,
-li {
-    list-style-position: inside;
-}
-
 /* Align each list point to the left */
 li {
     text-align: left;
@@ -83,4 +76,5 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: auto;
+    list-style-position: inside;
 }
