@@ -27,6 +27,7 @@ li {
 
 /* Align all text to the center and add margins */
 .text {
+    font-size: 17px;
     text-align: center;
     display: block;
     margin-left: 300px;
