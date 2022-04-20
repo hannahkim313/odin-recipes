@@ -24,6 +24,7 @@ li {
 .heading,
 .text {
     font-family: sans-serif, Arial, Helvetica;
+    line-height: 24px;
 }
 
 /* Align headings to the center */
