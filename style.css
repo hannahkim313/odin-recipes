@@ -77,3 +77,7 @@ h2:after {
     /* Move bullet points/numbers of lists to the inside */
     list-style-position: inside;
 }
+
+.heading.index {
+    margin-top: 50px;
+}
