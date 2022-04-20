@@ -10,7 +10,7 @@
 }
 
 /* Add background color to main content */
-.h1,
+h1,
 .main {
     background-color:antiquewhite;
     padding: 25px 25px;
