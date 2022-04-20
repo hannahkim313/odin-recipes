@@ -3,9 +3,40 @@
     height: 500px;
     width: auto;
     display: block;
+    margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
     width: auto;
+}
+
+/* Style h2 headings and add lines before and after */
+h2 {
+    font-family: sans-serif, Arial, Helvetica;
+    margin: 50px auto;
+    max-width: 500px;
+    position: relative;
+}
+
+h2:before {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+}
+  
+h2:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 2px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
 }
 
 /* Add margins to lists */
@@ -20,22 +51,17 @@ li {
     text-align: left;
 }
 
-/* Define font type and fallbacks */
+/* Define font types and style */
 .heading,
 .text {
     font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
     line-height: 24px;
 }
 
-/* Align headings to the center */
-.heading {
-    text-align: center;
-}
-
-/* Align all text to the center and add margins */
+/* Change font size and add margins */
 .text {
     font-size: 17px;
-    text-align: center;
     display: block;
     margin-left: 300px;
     margin-right: 300px;
