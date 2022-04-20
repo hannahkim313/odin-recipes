@@ -17,7 +17,7 @@ body {
     margin-bottom: 25px;
 }
 
-h1,
+.heading.one,
 .main {
     /* Add background color behind headers, lists, and paragraphs */
     background-color:hsl(33, 78%, 91%);
