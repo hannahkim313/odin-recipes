@@ -3,6 +3,8 @@ body {
 }
 
 .image {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
     height: 500px;
     width: auto;
     /* Center image */
