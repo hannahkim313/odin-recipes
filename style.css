@@ -1,3 +1,7 @@
+body {
+    background-color: hsl(32, 37%, 68%);
+}
+
 .image {
     height: 500px;
     width: auto;
@@ -12,7 +16,7 @@
 h1,
 .main {
     /* Add background color behind headers, lists, and paragraphs */
-    background-color:antiquewhite;
+    background-color:hsl(33, 78%, 91%);
     padding: 25px 25px;
     margin-left: 300px;
     margin-right: 300px;
@@ -31,7 +35,7 @@ h2:before {
     display: block;
     width: 130px;
     height: 2px;
-    background: #000;
+    background: hsl(0, 0%, 0%);
     left: 0;
     top: 50%;
     position: absolute;
@@ -43,7 +47,7 @@ h2:after {
     display: block;
     width: 130px;
     height: 2px;
-    background: #000;
+    background: hsl(0, 0%, 0%);
     right: 0;
     top: 50%;
     position: absolute;
