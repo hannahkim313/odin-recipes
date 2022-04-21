@@ -79,12 +79,21 @@ h2:after {
 }
 
 .heading.index {
-    margin-top: 50px;
+    margin-top: 200px;
     margin-bottom: 50px;
+    padding: 25px 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 25px;
 }
 
 .recipes {
+    background-color: hsl(33, 78%, 91%);
     font-size: 17px;
     text-align: center;
-    columns: 3 auto;
+    border-radius: 5px;
+    padding: 25px 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 25px;
 }
