@@ -1,4 +1,8 @@
-# odin-recipes
+# Odin Recipes
+
+https://hannahkim313.github.io/odin-recipes/
+
+## Project Summary
 
 This project exercise, created by The Odin Project, is a recipe index containing 3 different recipes:
 
@@ -10,6 +14,9 @@ The recipe index (index.html) contains links to each recipe (breakfast.html, sal
 and tiramisu.html), respectively. Each webpage was designed using HTML and CSS to
 demonstrate a basic understanding of web design; however, some additional research was
 conducted to achieve a more stylized layout.
+
+
+## Credits
 
 All of the recipes and images used in this project are credited below:
 
